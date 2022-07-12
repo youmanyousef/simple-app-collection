@@ -8,7 +8,7 @@ import sys
 import os
 
 files_dir = sys.argv[1]
-output = "final.pdf"
+output = f"{files_dir}.pdf"
 papersize = "letter" # a4paper, letter, refer to https://github.com/rrthomas/pdfjam#documentation
 #------
 files = os.listdir(files_dir)
